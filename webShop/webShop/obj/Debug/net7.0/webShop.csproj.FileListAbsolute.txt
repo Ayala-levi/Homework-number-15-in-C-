@@ -1,0 +1,66 @@
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\appsettings.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\webShop.exe
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\webShop.deps.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\webShop.runtimeconfig.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\webShop.pdb
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.csproj.AssemblyReference.cache
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.AssemblyInfoInputs.cache
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.AssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.webShop.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.build.webShop.props
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.webShop.props
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.webShop.props
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\scopedcss\bundle\webShop.styles.css
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.csproj.CopyComplete
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\refint\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.pdb
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\webShop.genruntimeconfig.cache
+C:\Users\משתמש\Documents\יד\c#\webShop\webShop\obj\Debug\net7.0\ref\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\appsettings.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\webShop.exe
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\webShop.deps.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\webShop.runtimeconfig.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\webShop.pdb
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.csproj.AssemblyReference.cache
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.AssemblyInfoInputs.cache
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.AssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.webShop.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.build.webShop.props
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.webShop.props
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.webShop.props
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\scopedcss\bundle\webShop.styles.css
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.csproj.CopyComplete
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\refint\webShop.dll
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.pdb
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\webShop.genruntimeconfig.cache
+C:\Users\משתמש\Documents\יד\c#\מפגש 15\webShop\webShop\obj\Debug\net7.0\ref\webShop.dll
