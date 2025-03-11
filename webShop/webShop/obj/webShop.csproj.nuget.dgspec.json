@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\משתמש\\Documents\\יד\\c#\\מפגש 15\\webShop\\webShop\\webShop.csproj": {}
+    "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\משתמש\\Documents\\יד\\c#\\מפגש 15\\webShop\\webShop\\webShop.csproj": {
+    "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\משתמש\\Documents\\יד\\c#\\מפגש 15\\webShop\\webShop\\webShop.csproj",
+        "projectUniqueName": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
         "projectName": "webShop",
-        "projectPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\מפגש 15\\webShop\\webShop\\webShop.csproj",
+        "projectPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
         "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\מפגש 15\\webShop\\webShop\\obj\\",
+        "outputPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,22 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

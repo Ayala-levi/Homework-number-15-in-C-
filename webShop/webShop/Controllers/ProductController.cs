@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using webShop.Entities;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -80,8 +81,10 @@ namespace webShop.Controllers
         {
             try
             {
-               p.Id = Products[Products.Count - 1].Id + 1;
-               Products.Add(p);
+                //Product product =new Product(p.id, p.name,  p.description,p.price, p.StockQuantity);
+                //product.Id = Products[Products.Count - 1].Id + 1;
+                p.Id = Products[Products.Count - 1].Id + 1;
+                Products.Add(p);
             }
             catch(Exception e)
             {

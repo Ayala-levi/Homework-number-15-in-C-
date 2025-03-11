@@ -1,3 +1,5 @@
+using webShop.Entities;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +15,9 @@ builder.Services.AddCors(
     .AllowAnyHeader()
     .AllowAnyMethod()
     ));
+
+//הזרקת ה-dbcontext 
+builder.Services.AddDbContext<ShopDBContext>();
 
 var app = builder.Build();
 

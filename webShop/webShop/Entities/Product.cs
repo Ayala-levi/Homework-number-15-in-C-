@@ -1,4 +1,4 @@
-﻿namespace webShop
+﻿namespace webShop.Entities
 {
     public class Product
     {
