@@ -11,8 +11,8 @@ using webShop.Entities;
 namespace webShop.Migrations
 {
     [DbContext(typeof(ShopDBContext))]
-    [Migration("20250311162926_InitDB")]
-    partial class InitDB
+    [Migration("20250318095420_InitConectionString")]
+    partial class InitConectionString
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

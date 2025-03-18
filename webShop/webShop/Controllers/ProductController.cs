@@ -76,21 +76,38 @@ namespace webShop.Controllers
 
 
         // POST api/<ProductController>
-        [HttpPost]
-        public void Post([FromBody] Product p)
-        {
-            try
-            {
-                //Product product =new Product(p.id, p.name,  p.description,p.price, p.StockQuantity);
-                //product.Id = Products[Products.Count - 1].Id + 1;
-                p.Id = Products[Products.Count - 1].Id + 1;
-                Products.Add(p);
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e);
-            }
-        }
+        //[HttpPost]
+        //public void Post([FromBody] Product p)
+        //{
+        //    Console.WriteLine("fdsf");
+        //    try
+        //    {
+        //       p.Id = Products[Products.Count - 1].Id + 1;
+        //       Products.Add(p);
+        //    }
+        //    catch(Exception e)
+        //    {
+        //        Console.WriteLine(e);
+        //    }
+        //}
+
+        //[HttpPost]
+        //public void Post([FromBody] string p)
+        //{
+        //    Console.WriteLine("fdsf");
+        //    try
+        //    {
+        //        string [] arr = p.Split(":");
+        //        Product prod = new Product(int.Parse(arr[1]), arr[3], arr[5], arr[7], int.Parse(arr[9]));
+        //        prod.Id = Products[Products.Count - 1].Id + 1;
+        //        Products.Add(prod);
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e);
+        //    }
+        //}
+
 
         // PUT api/<ProductController>/5
         [HttpPut("{id}")]

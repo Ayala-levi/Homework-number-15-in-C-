@@ -15,9 +15,7 @@ builder.Services.AddCors(
     .AllowAnyHeader()
     .AllowAnyMethod()
     ));
-
-//הזרקת ה-dbcontext 
-builder.Services.AddDbContext<ShopDBContext>();
+builder.Services.AddDbContext<ShopDBContext>();   //מזריקה את מחלקת הקונטסקסט לכל האפליקציה
 
 var app = builder.Build();
 

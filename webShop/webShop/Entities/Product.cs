@@ -8,6 +8,8 @@
         public double Price { get; set; }
         public int StockQuantity { get; set; }
 
+        
+
         public Product(int id, string name, string description, double price, int stockQuantity)
         {
             Id = id;
