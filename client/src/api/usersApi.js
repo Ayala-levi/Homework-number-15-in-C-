@@ -27,8 +27,7 @@ export const getProductById = async (id) => {
 export const addProduct = async (p) => {
     try {
         const response = await axios.post(PATH, p);
-        alert(response.data)
-        console.log(response.data);
+        alert("from userapi:"+p.name)
     }
     catch (e) {
         console.log(e);

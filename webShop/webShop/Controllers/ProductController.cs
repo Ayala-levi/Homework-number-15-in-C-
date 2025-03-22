@@ -9,25 +9,36 @@ namespace webShop.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        static List<Product> Products = new List<Product>() {
-              new Product(1, "חלב תנובה 3%", "חלב טרי 3% שומן", 5.90, 50),
-              new Product(2, "לחם אחיד", "לחם לבן פרוס", 8.50, 30),
-              new Product(3, "ביצים L", "ביצים בגודל גדול", 12.00, 20),
-              new Product(4, "עגבניות", "עגבניות טריות", 7.90, 100),
-              new Product(5, "מלפפונים", "מלפפונים טריים", 6.50, 80),
-              new Product(6, "קוטג' תנובה 5%", "גבינת קוטג' 5% שומן", 6.20, 40),
-              new Product(7, "שוקולד פרה", "שוקולד חלב", 4.80, 60),
-              new Product(8, "קפה נמס עלית", "קפה נמס מגורען", 18.00, 25),
-              new Product(9, "אורז בסמטי", "אורז בסמטי איכותי", 15.50, 35),
-              new Product(10, "פסטה ספגטי", "פסטה ספגטי מחיטת דורום", 9.90, 50),
-              new Product(11, "תפוזים", "תפוזים סחוטים טריים", 8.90, 60),
-              new Product(12, "לחם שיפון", "לחם שיפון מלא", 12.50, 25),
-        };
+        //בתוך הדאטה בייס
+        //static List<Product> Products = new List<Product>() {
+        //      new Product(1, "חלב תנובה 3%", "חלב טרי 3% שומן", 5.90, 50),
+        //      new Product(2, "לחם אחיד", "לחם לבן פרוס", 8.50, 30),
+        //      new Product(3, "ביצים L", "ביצים בגודל גדול", 12.00, 20),
+        //      new Product(4, "עגבניות", "עגבניות טריות", 7.90, 100),
+        //      new Product(5, "מלפפונים", "מלפפונים טריים", 6.50, 80),
+        //      new Product(6, "קוטג' תנובה 5%", "גבינת קוטג' 5% שומן", 6.20, 40),
+        //      new Product(7, "שוקולד פרה", "שוקולד חלב", 4.80, 60),
+        //      new Product(8, "קפה נמס עלית", "קפה נמס מגורען", 18.00, 25),
+        //      new Product(9, "אורז בסמטי", "אורז בסמטי איכותי", 15.50, 35),
+        //      new Product(10, "פסטה ספגטי", "פסטה ספגטי מחיטת דורום", 9.90, 50),
+        //      new Product(11, "תפוזים", "תפוזים סחוטים טריים", 8.90, 60),
+        //      new Product(12, "לחם שיפון", "לחם שיפון מלא", 12.50, 25),
+        //};
+
+        //ShopDBContext יצרנו משתנה מסוג  
+        //כי הוא מחובר ישירות לדאטה בייס
+        private readonly ShopDBContext _Context;
+
+        public ProductController()
+        {
+            _Context=new ShopDBContext();
+        }
+
         // GET: api/<ProductController>
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(Products);
+            return Ok(_Context.Products.ToList());
         }
 
 
@@ -37,7 +48,7 @@ namespace webShop.Controllers
         {
             try
             {
-                Product p = Products.First(p => p.Id == id);
+                Product p = _Context.Products.First(p => p.Id == id);
                 return Ok(p);
             }
             catch
@@ -57,7 +68,7 @@ namespace webShop.Controllers
             {
                 using (StreamWriter writer = new StreamWriter(path))
                 {
-                    foreach (Product p in Products)
+                    foreach (Product p in _Context.Products)
                     {
                         writer.WriteLine("product" + p.Id);
                         writer.WriteLine(p.Name);
@@ -75,50 +86,37 @@ namespace webShop.Controllers
         }
 
 
-        // POST api/<ProductController>
-        //[HttpPost]
-        //public void Post([FromBody] Product p)
-        //{
-        //    Console.WriteLine("fdsf");
-        //    try
-        //    {
-        //       p.Id = Products[Products.Count - 1].Id + 1;
-        //       Products.Add(p);
-        //    }
-        //    catch(Exception e)
-        //    {
-        //        Console.WriteLine(e);
-        //    }
-        //}
-
-        //[HttpPost]
-        //public void Post([FromBody] string p)
-        //{
-        //    Console.WriteLine("fdsf");
-        //    try
-        //    {
-        //        string [] arr = p.Split(":");
-        //        Product prod = new Product(int.Parse(arr[1]), arr[3], arr[5], arr[7], int.Parse(arr[9]));
-        //        prod.Id = Products[Products.Count - 1].Id + 1;
-        //        Products.Add(prod);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine(e);
-        //    }
-        //}
+        //POST api/<ProductController>
+        [HttpPost]
+        public void Post([FromBody] Product p)
+        {
+            try
+            {
+                _Context.Products.Add(p);  
+                _Context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
 
 
         // PUT api/<ProductController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Product p)
         {
-            int index = Products.FindIndex(p => p.Id == id);
-            Products[index].Id = id;
-            Products[index].Name = p.Name;
-            Products[index].Description = p.Description;
-            Products[index].Price = p.Price;
-            Products[index].StockQuantity = p.StockQuantity;
+            Product product = _Context.Products.FirstOrDefault(p => p.Id == id);
+            if (product == null)
+            {
+                throw new Exception("Not Exist for update");  
+            }
+            product.Name = p.Name;
+            product.Description = p.Description;
+            product.Price = p.Price;
+            product.StockQuantity = p.StockQuantity;
+
+            _Context.SaveChanges();
 
         }
 
@@ -128,8 +126,13 @@ namespace webShop.Controllers
         {
             try
             {
-                int index = Products.FindIndex(p => p.Id == id);
-                Products.RemoveAt(index);
+                Product product = _Context.Products.FirstOrDefault(p => p.Id == id);
+                if (product == null)
+                {
+                    throw new Exception("Not Exist for delete");
+                }
+                _Context.Products.Remove(product);
+                _Context.SaveChanges();
             }
             catch (Exception ex)
             {

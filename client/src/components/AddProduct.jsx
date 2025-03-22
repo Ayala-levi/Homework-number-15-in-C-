@@ -14,10 +14,13 @@ function AddProduct() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert(product.name+" "+product.id+ " "+product.description+" "+product.price+" "+product.stockQuantity)
-       alert(product)
+        alert("from commp:"+product.id+ " "+product.name+" "+product.description+" "+product.price+" "+product.stockQuantity)
         addProduct(product).then(() => {
             alert('User added successfully!');
+            navigate(`/`);
+        })
+        .catch((e)=>{
+            alert("error!!!");
             navigate(`/`);
         });
     };
@@ -37,6 +40,9 @@ function AddProduct() {
                 </div>
                 <div class="form-group">
                     <TextField name="description" label="description" onChange={handleChange} required />
+                </div>
+                <div class="form-group">
+                    <TextField name="stockQuantity" label="stockQuantity" onChange={handleChange} required />
                 </div>
                 <div class="form-group">
                     <Button type="submit">Add Product</Button>
