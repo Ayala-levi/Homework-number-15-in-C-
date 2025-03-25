@@ -1,0 +1,30 @@
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.deps.json
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.pdb
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Data.dll
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Data.pdb
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.AssemblyReference.cache
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.AssemblyInfoInputs.cache
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.AssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.CopyComplete
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\refint\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.pdb
+C:\Users\משתמש\Documents\יד\c#\Solid.Net\Solid.Service\obj\Debug\net7.0\ref\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.deps.json
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Service.pdb
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Data.dll
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\bin\Debug\net7.0\Solid.Data.pdb
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.AssemblyReference.cache
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.AssemblyInfoInputs.cache
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.AssemblyInfo.cs
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.csproj.CopyComplete
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\refint\Solid.Service.dll
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\Solid.Service.pdb
+C:\Users\משתמש\Documents\יד\c#\שב\שיעור 15-16-17\Homework-number-15-in-C-\Solid.Net\Solid.Service\obj\Debug\net7.0\ref\Solid.Service.dll

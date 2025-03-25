@@ -3926,11 +3926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
+      "projectUniqueName": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15-16-17\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
       "projectName": "webShop",
-      "projectPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
+      "projectPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15-16-17\\Homework-number-15-in-C-\\webShop\\webShop\\webShop.csproj",
       "packagesPath": "C:\\Users\\משתמש\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15\\Homework-number-15-in-C-\\webShop\\webShop\\obj\\",
+      "outputPath": "C:\\Users\\משתמש\\Documents\\יד\\c#\\שב\\שיעור 15-16-17\\Homework-number-15-in-C-\\webShop\\webShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\משתמש\\AppData\\Roaming\\NuGet\\NuGet.Config",

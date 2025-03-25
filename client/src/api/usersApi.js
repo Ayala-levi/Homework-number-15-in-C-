@@ -1,6 +1,12 @@
 import axios from 'axios';
 
-const PATH = 'https://localhost:7179/api/Product';
+//קישור לשרת עם מודל 3 השכבות-Clean Architecture
+//server-Solid.Net
+const PATH = 'https://localhost:7085/api/Product';
+
+//קישור לשרת בלי מודל 3 השכבות
+//server-webShop
+// const PATH = 'https://localhost:7179/api/Product';
 export const getAllPoducts = async () => {
     try {
         const response = await axios.get(PATH);
